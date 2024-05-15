@@ -127,7 +127,7 @@ STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static'),)
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
 # 以下を追加
 STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
-dotenv.load_dotenv() # .env ファイルを読み込む
+load_dotenv() # .env ファイルを読み込む
 SECRET_KEY = os.getenv('SECREST_KEY') # .env内の環境変数を取得
 SUPERUSER_NAME = os.getenv('SUPERUSER_NAME')
 SUPERUSER_EMAIL = os.getenv('SUPERUSER_EMAIL')
