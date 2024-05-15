@@ -1,7 +1,7 @@
 databases:
   - name: sports-matching-app-db
-    databaseName: ports-matching-app-db
-    user: sports-matching-app-user
+    databaseName: sports_matching_app_db
+    user: sports_matching_app_user
     region: singapore
     plan: free
 
