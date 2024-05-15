@@ -29,7 +29,7 @@ SECRET_KEY = 'l604@)m9)54a$h@s24#j_t7ck#)k-x#v*&^hvuhxz*3**8j4ye'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'daily-report.onrender.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'sports-matching-app.onrender.com']
 
 # Application definition
 

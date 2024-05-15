@@ -14,7 +14,7 @@ services:
     branch: main
     healthCheckPath: /
     buildCommand: "./build.sh"
-    startCommand: "gunicorn instant-django-master.wsgi --log-file -"
+    startCommand: "gunicorn config.wsgi --log-file -"
     envVars:
       - key: DATABASE_URL
         fromDatabase:
