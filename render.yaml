@@ -1,7 +1,7 @@
 databases:
-  - name: sports-matching-app-db
-    databaseName: sports_matching_app_db
-    user: sports_matching_app_user
+  - name: sports_db
+    databaseName: sports_db
+    user: sports_user
     region: singapore
     plan: free
 
@@ -18,7 +18,7 @@ services:
     envVars:
       - key: DATABASE_URL
         fromDatabase:
-          name: sports-matching-app-db
+          name: sports_db
           property: connectionString
       - key: SECRET_KEY
         generateValue: true
